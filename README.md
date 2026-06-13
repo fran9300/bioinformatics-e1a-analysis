@@ -56,6 +56,27 @@ The workflow generates scatter plots to explore relationships between:
 
 ---
 
+## Key Findings
+
+- E1A proteins show variability in sequence length across species.
+- Charge distribution patterns can be quantified using the Kappa parameter.
+- Hydrodynamic radius is associated with protein length and composition.
+- AIUPred identifies extensive intrinsically disordered regions within E1A proteins.
+
+---
+
+## Example Visualizations
+
+### Kappa vs Hydrodynamic Radius
+
+![Kappa vs Radius](results/figures/kappa_vs_radius.png)
+
+### Sequence Length vs Hydrodynamic Radius
+
+![Length vs Radius](results/figures/length_vs_radius.png)
+
+---
+
 ## Project Structure
 
 ```text
