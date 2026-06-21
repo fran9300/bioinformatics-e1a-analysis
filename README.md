@@ -106,12 +106,13 @@ bioinformatics-e1a-analysis/
 
 | Directory | Description |
 |------------|-------------|
-| `data/` | Input FASTA files and AIUPred package used for disorder prediction |
+| `data/` | Input FASTA files |
 | `notebooks/` | Main Jupyter Notebook containing the complete analysis workflow |
 | `results/csv/` | Generated tables and processed results |
 | `results/figures/` | Generated visualizations and plots |
 | `results/` | AIUPred output files |
 | `requirements.txt` | Python dependencies required to run the project |
+| `tools/aiupred/` | AIUPred package used for disorder prediction |
 
 ## Technologies
 
@@ -210,14 +211,9 @@ Generated outputs are stored in the `results/` directory.
 
 This project uses AIUPred v1.0 (Publication release) for protein disorder prediction.
 
-The notebook automatically extracts the AIUPred package from:
-
 ```text
-data/AIUPred-1.0.zip
+tools/aiupred/AIUPred-1.0/
 ```
-
-and executes the prediction pipeline as part of the workflow.
-
 Official repository:
 
 https://github.com/iaaaka/AIUPred
