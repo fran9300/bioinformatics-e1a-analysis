@@ -135,6 +135,6 @@ GPU memory usage:
 
 ## Testing
 
-![plot](./imgs/P04637.png)
+![plot](imgs/P04637.png)
 
-![plot](./imgs/P35222.png)
+![plot](imgs/P35222.png)
