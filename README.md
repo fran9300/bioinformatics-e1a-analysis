@@ -216,7 +216,7 @@ tools/aiupred/AIUPred-1.0/
 ```
 Official repository:
 
-https://github.com/iaaaka/AIUPred
+https://github.com/doszilab/AIUPred
 
 ---
 
